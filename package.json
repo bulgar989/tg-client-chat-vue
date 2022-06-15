@@ -1,0 +1,21 @@
+{
+  "name": "tg-client-chat-vue",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "socket.io-client": "^4.5.0",
+    "vue": "^3.2.25",
+    "vue-3-socket.io": "^1.0.5",
+    "vue-socket.io": "^3.0.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
